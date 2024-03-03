@@ -33,7 +33,7 @@ jobs:
        # gradle-version: 8.6
         #arguments: build
         #arguments: build
-        #build-root-directory: app
+        build-root-directory: app
     - name: Build with Gradle
       #run: make -C app build
       run: make -C app build
