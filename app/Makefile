@@ -1,4 +1,7 @@
 #Makefile
+.PHONY: build
 build:
 	gradle build
-.PHONY: build
+test-report: # make Jacoco test report
+	./gradlew jacocoTestReport
+
