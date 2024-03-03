@@ -1,1 +1,3 @@
-
+#Makefile
+build:
+	gradle build
