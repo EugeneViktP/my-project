@@ -29,10 +29,11 @@ jobs:
         distribution: 'temurin'
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3 # v3.1.0
-   # - name: Grant Permission to Build with Gradlew
-     # run: chmod +x gradlew
+      with:
+        gradle-version: 8.6
+        build-root-directory: app
     - name: Build with Gradlew
-      run: make -C app build
+      run: ./gradlew build
       
       #with:
        # gradle-version: '8.6'
