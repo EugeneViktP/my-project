@@ -1,6 +1,6 @@
 build:
 	@gradle build
 build-wrapper:
-    ./gradlew build
+        ./gradlew build
 
 .PHONY: build
