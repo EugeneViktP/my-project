@@ -1,2 +1,2 @@
 ### Hexlet tests and linter status:
-<flows/gradle.yml/badge.svg/branch=feature-1)
+[![Actions Status](https://github.com/EugeneViktP/my-project/actions/workflows/gradle.yml/badge.svg/branch=feature-1)
